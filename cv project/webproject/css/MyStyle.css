@@ -1,0 +1,401 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Tahoma;
+}
+
+html {
+  scroll-behavior: smooth ;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #00baff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.container-body {
+  padding-left: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+
+/* End Global Rules */
+/* Start header */
+header nav {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+@font-face {
+  font-family: comic-sans-ms;
+  src: url(../fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf);
+}
+
+header nav ul li a {
+  padding: 20px 30px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: comic-sans-ms;
+}
+
+header nav ul li a.link-active,
+header nav ul li a:hover {
+  color: white;
+}
+
+.nav-logo {
+  margin-left: 95%;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.body {
+  padding-top: 10px;
+  padding-left: 29px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.body .title {
+  padding: 0;
+}
+
+@font-face {
+  font-family: unispace;
+  src: url(../fonts/unispace/unispace/bd.ttf);  
+}
+
+/* End header */
+.title {
+  padding-top: 10px;
+  padding-left: 47px;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: unispace;
+}
+
+.table-course-information {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px black;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.td {
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.th,td {
+  padding: .65em;
+}
+
+.row {
+  padding-top: 35px;
+}
+
+.row h3 sub, .row h5 {
+  opacity: .8;
+}
+
+.row h5 {
+  padding: 15px 0 15px 0;
+}
+
+@font-face {
+  font-family: Arial-Rounded-MT;
+  src: url(../fonts/Arial-Rounded-MT-Bold-Font/ARLRDBD.ttf);
+}
+
+.row h3, .row h5 {
+  font-family: Arial-Rounded-MT;
+}
+
+.left {
+  padding-top: 35px;
+  width: 50%;
+}
+
+.detail {
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail p:nth-child(2) {
+  font-weight: bold;
+}
+
+.img-profile {
+  margin-top: 70px;
+  margin-left: 0;
+  height: 400px;
+  border: 1px solid black;
+}
+
+/****/
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.form-exeprience {
+  margin-left: 0;
+  margin-top: 50px;
+  float: left;
+}
+
+.form-exeprience form {
+  margin-left: 47px;
+}
+
+#experience-category {
+  width: 220px;
+  margin-left: 10px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.form-experience-item {
+  margin-top: 40px;
+}
+
+#experience-title {
+  width: 220px;
+  margin-left: 43px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#start-date-experience {
+  width: 220px;
+  margin-left: 90px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#end-date-experience {
+  width: 220px;
+  margin-left: 97px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#institution-experience {
+  width: 220px;
+  margin-left: 90px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+.description-experience {
+  position: absolute;
+}
+
+.textarea-experience {
+  margin-left: 173px;
+  border-radius: 7px;
+}
+
+.form-experience-item-last {
+  margin-top: 60px;
+}
+
+.btn-save-experience {
+  margin-left: 20px;
+  width: 220px;
+  background-color: #198754;
+  color: white;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+.btn-reset-experience {
+  margin-left: 90px;
+  width: 220px;
+  background-color: #dc3545;
+  color: white;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+.experience-img {
+  margin-top: 50px;
+  margin-left: 170px;
+  float: left;
+}
+
+.form-course {
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 47px;
+  float: left;
+}
+
+#course-name {
+  margin-left: 50px;
+  height: 30px;
+  width: 220px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#hours-course {
+  width: 220px;
+  margin-left: 23px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#start-date-course {
+  width: 220px;
+  margin-left: 73px;
+  border-radius: 7px;
+  border: 1px solid;
+  height: 30px;
+}
+
+#end-date-course {
+  width: 220px;
+  margin-left: 80px;
+  border-radius: 7px;
+  border: 1px solid;
+  height: 30px;
+}
+
+#institution-course {
+  margin-left: 72px;
+  height: 30px;
+  width: 220px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#attachment-course-file {
+  margin-left: 63px;
+}
+
+#attachment-course-url {
+  margin-left: 60px;
+}
+
+#url-course {
+  margin-left: 116px;
+  height: 30px;
+  width: 220px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+#file-course {
+  margin-left: 120px;
+}
+
+#textarea-course {
+  margin-left: 154px;
+  border-radius: 7px;
+}
+
+.btn-save-course {
+  margin-left: 30px;
+  width: 220px;
+  background-color: #198754;
+  color: white;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+.btn-reset-course {
+  margin-left: 105px;
+  width: 220px;
+  background-color: #dc3545;
+  color: white;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid;
+}
+
+.form-course-item{
+  margin-top: 40px;
+}
+
+.course-img {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.certification {
+  height: 1000px;
+}
+
+#certification-title {
+  margin-top: 40px;
+  margin-left: 61px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: unispace;
+}
+
+#certification-detail {
+  margin-left: 61px;
+}
+
+.certification-img {
+  width: 1191px;
+  height: 780px;
+  top: 260px;
+  margin-top: 12px; 
+  margin-left: 70px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.figcaption-certification {
+  margin-left: 71px;
+  margin-top: 12px; 
+}
